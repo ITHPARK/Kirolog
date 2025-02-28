@@ -55,9 +55,9 @@ $ yarn start
 |:------:|:------:|:------:|:------:|:------:|
 
 - **주간 리포트**:
-  - 일주일동안 작성한 일기를  토대로 AI가 감정과 추천 활동을 제시합니다.
+  - 일주일동안 작성한 일기를 토대로 AI가 감정과 추천 활동을 제시합니다.
     
-| <img src="https://github.com/user-attachments/assets/bddb6b91-7299-41a1-87cb-64e112b9d4c1" alt="리포트" width="175"> | <img src="https://github.com/user-attachments/assets/e7017a80-58dc-46fd-ad3b-4e4b375f505f" alt="리포트" width="175"> |
+| <img src="https://github.com/user-attachments/assets/e7017a80-58dc-46fd-ad3b-4e4b375f505f" alt="리포트" width="175"> | <img src="https://github.com/user-attachments/assets/bddb6b91-7299-41a1-87cb-64e112b9d4c1" alt="리포트" width="175"> | 
 |:------:|:------:|
 
 - **마이페이지**:
