@@ -25,7 +25,7 @@ $ yarn start
 # 2. Team Members (팀원 및 팀 소개)
 | 조혜인 | 김예진 | 고진영 | 여영규 | 김나희 | 박태현
 |:------:|:------:|:------:|:------:|:------:|:------:|
-| <img src="https://github.com/user-attachments/assets/c1c2b1e3-656d-4712-98ab-a15e91efa2da" alt="이동규" width="150"> | <img src="https://github.com/user-attachments/assets/78ec4937-81bb-4637-975d-631eb3c4601e" alt="신유승" width="150"> | <img src="https://github.com/user-attachments/assets/78ce1062-80a0-4edb-bf6b-5efac9dd992e" alt="김나연" width="150"> | <img src="https://github.com/user-attachments/assets/beea8c64-19de-4d91-955f-ed24b813a638" alt="이승준" width="150"> | <img src="https://github.com/user-attachments/assets/beea8c64-19de-4d91-955f-ed24b813a638" alt="이승준" width="150"> | <img src="https://github.com/user-attachments/assets/beea8c64-19de-4d91-955f-ed24b813a638" alt="이승준" width="150"> |
+| <img src="https://avatars.githubusercontent.com/u/122344944?v=4" alt="조혜인" width="150"> | <img src="https://avatars.githubusercontent.com/u/122344944?v=4" alt="김예진" width="150"> | <img src="https://avatars.githubusercontent.com/u/122344944?v=4" alt="고진영" width="150"> | <img src="https://avatars.githubusercontent.com/u/116572686?v=4" alt="여영규" width="150"> | <img src="https://avatars.githubusercontent.com/u/119477585?v=4" alt="김나희" width="150"> | <img src="https://avatars.githubusercontent.com/u/122344944?v=4" alt="박태현" width="150"> |
 | 기획 | 디자인 | 디자인 | DevOps | BE | FE |
 |  |  |  | [GitHub](https://github.com/Dminus251) | [GitHub](https://github.com/sptcnl) | [GitHub](https://github.com/ITHPARK) |
 
@@ -34,28 +34,40 @@ $ yarn start
 
 # 3. Key Features (주요 기능)
 - **회원가입**:
-  - 회원가입 시 DB에 유저정보가 등록됩니다.
+  - 회원가입 시 DB에 유저정보가 등록되면 바로 로그인 됩니다.
+  <img src="https://github.com/user-attachments/assets/e872eca3-1639-421c-8bff-a3fc812e6fcd" alt="회원가입" width="175">
 
 - **로그인**:
   - 사용자 인증 정보를 통해 로그인합니다.
+  <img src="https://github.com/user-attachments/assets/f94d89f8-a4e8-42c6-bab5-3ccbabf4a022" alt="로그인" width="175">
 
-- **내 동아리 일정관리**:
-  - 캘린더 UI를 통해 동아리 관련 일정 추가&삭제가 가능합니다.
-  - 체크박스를 통해 종료되거나 이미 수행한 일정을 표시할 수 있습니다.
+- **내 일기 보기 및 일기 작성**:
+  - 캘린더 UI를 통해 일기 데이터를 확인할 수 있습니다.
+  - 오늘 날짜에 일기를 추가하지 않았다면 일기를 작성할 수 있습니다.
+  <img src="https://github.com/user-attachments/assets/0efc1ff6-dc57-437a-8f6c-9f81020c6430" alt="메인" width="175">
+  
+- **일기 작성(직접 작성/AI작성)**:
+  - 오늘 일기를 작성할 수 있습니다.
+  - 사용자가 직접 일기를 작성할 수 있습니다.
+  - 감정과 키워드를 추가하면 AI가 일기를 작성해줍니다.
 
-- **동아리 찾기**:
-  - 대학 내 동아리를 검색할 수 있습니다.
-  - 검색 시 해당 동아리가 업로드한 홍보글이 보여집니다.
+| <img src="https://github.com/user-attachments/assets/f9e9f6ad-bd99-4e70-93f0-879f1bbca221" alt="일기작성" width="175"> | <img src="https://github.com/user-attachments/assets/9fb841f2-5137-4e6d-9a10-437c0439b46c" alt="일기작성" width="175"> | <img src="https://github.com/user-attachments/assets/105f68c1-4f55-4dce-992c-961ee7a76e88" alt="일기작성" width="175"> | <img src="https://github.com/user-attachments/assets/b4a34d78-dc39-477e-b292-ffbf3f776f3d" alt="일기작성" width="175"> | <img src="https://github.com/user-attachments/assets/5e90c86f-05d3-4218-9210-ded8a39666de" alt="일기작성" width="175"> |
+|:------:|:------:|:------:|:------:|:------:|
 
-- **동아리 홍보**:
-  - 홍보글 등록을 통해 동아리를 홍보할 수 있습니다.
+- **주간 리포트**:
+  - 일주일동안 작성한 일기를  토대로 AI가 감정과 추천 활동을 제시합니다.
+    
+| <img src="https://github.com/user-attachments/assets/bddb6b91-7299-41a1-87cb-64e112b9d4c1" alt="리포트" width="175"> | <img src="https://github.com/user-attachments/assets/e7017a80-58dc-46fd-ad3b-4e4b375f505f" alt="리포트" width="175"> |
+|:------:|:------:|
 
-- **동아리 만들기**:
-  - 새로운 동아리를 만들어 관리할 수 있습니다.
+- **마이페이지**:
+  - 현재 로그인된 계정정보를 확인합니다.
+  - 닉네임을 수정할 수 있습니다.
+  - 현재 계정의 관심사를 설정할 수 있습니다.
+  - 로그아웃 및 로그인이 가능합니다.
 
-- **동아리 프로필**:
-  - 동아리 홍보글에서 동아리 이름(링크)를 클릭하면 해당 동아리 프로필로 이동합니다.
-  - 동아리 프로필에서는 동아리 소개, 동아리 활동사진 갤러리, 동아리 홍보글 기록관 등을 볼 수 있습니다.
+| <img src="https://github.com/user-attachments/assets/f8330c86-1efa-43c3-8193-e1b25177ee43" alt="마이페이지" width="175"> | <img src="https://github.com/user-attachments/assets/a0e42233-b30c-4c7b-baa6-543b440b9d19" alt="마이페이지" width="175"> | <img src="https://github.com/user-attachments/assets/db6388bf-5d73-42b2-b6f0-69b3fb643639" alt="마이페이지" width="175">| <img src="https://github.com/user-attachments/assets/88aeeffc-e649-42a3-83a1-cf8d4786a1c1" alt="마이페이지" width="175"> | <img src="https://github.com/user-attachments/assets/0c604264-efea-489c-87f7-136f7bfb0839" alt="마이페이지" width="175"> | 
+|:------:|:------:|:------:|:------:|:------:|
 
 <br/>
 <br/>
