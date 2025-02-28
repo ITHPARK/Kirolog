@@ -1,5 +1,5 @@
 <a href="https://www.kirolog.com/" target="_blank">
-<img src="https://github.com/user-attachments/assets/daa622b9-7c69-4786-8db3-4996b7f140be" alt="배너" width="100%"/>
+<img src="https://github.com/user-attachments/assets/3fb8700e-d04e-4545-b7e9-9176c530ae2d" alt="배너" width="100%"/>
 </a>
 
 <br/>
@@ -7,9 +7,10 @@
 
 # 0. Getting Started (시작하기)
 ```bash
-$ npm start
+$ yarn install
+$ yarn start
 ```
-[서비스 링크](https://club-project-one.vercel.app/)
+[서비스 링크](https://www.kirolog.com/)
 
 <br/>
 <br/>
