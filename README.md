@@ -92,14 +92,14 @@ $ yarn start
 ## 5.2 Frotend
 |  |  |  |
 |-----------------|-----------------|-----------------|
-| Yarn Berry    |  <img src="https://github.com/user-attachments/assets/e3b49dbb-981b-4804-acf9-012c854a2fd2" alt="React" width="100"> | 4.5.3   |
+| Yarn Berry    |  <img src="https://avatars.githubusercontent.com/u/50545563?s=96&v=4" alt="React" width="100"> | 4.5.3   |
 | React    |  <img src="https://github.com/user-attachments/assets/e3b49dbb-981b-4804-acf9-012c854a2fd2" alt="React" width="100"> | 18.0.0    |
-| EmotionCss    |  <img src="https://github.com/user-attachments/assets/c9b26078-5d79-40cc-b120-69d9b3882786" alt="StyledComponents" width="100">| 11.13.5   |
-| TanStack Query v5    |  <img src="https://github.com/user-attachments/assets/75a46fa7-ebc0-4a9d-b648-c589f87c4b55" alt="MUI" width="100">    | 5.62.3  |
-| Typescript   |  <img src="https://github.com/user-attachments/assets/75a46fa7-ebc0-4a9d-b648-c589f87c4b55" alt="MUI" width="100">    | 4.4.2  |
-| axios   |  <img src="https://github.com/user-attachments/assets/75a46fa7-ebc0-4a9d-b648-c589f87c4b55" alt="MUI" width="100">    | 1.7.9  |
-| eslint   |  <img src="https://github.com/user-attachments/assets/75a46fa7-ebc0-4a9d-b648-c589f87c4b55" alt="MUI" width="100">    | 8.57.0  |
-| prettier   |  <img src="https://github.com/user-attachments/assets/75a46fa7-ebc0-4a9d-b648-c589f87c4b55" alt="MUI" width="100">    | 3.4.2  |
+| EmotionCss    |  <img src="https://avatars.githubusercontent.com/u/31557565?s=200&v=4" alt="StyledComponents" width="100">| 11.13.5   |
+| TanStack Query v5    |  <img src="https://avatars.githubusercontent.com/u/72518640?s=48&v=4" alt="MUI" width="100">    | 5.62.3  |
+| Typescript   |  <img src="https://raw.githubusercontent.com/microsoft/TypeScript-Website/v2/packages/typescriptlang-org/static/branding/ts-logo-512.svg" alt="MUI" width="100">    | 4.4.2  
+| axios   |  <img src="https://avatars.githubusercontent.com/u/32372333?s=48&v=4" alt="MUI" width="100">    | 1.7.9  |
+| eslint   |  <img src="https://avatars.githubusercontent.com/u/6019716?s=48&v=4" alt="MUI" width="100">    | 8.57.0  |
+| prettier   |  <img src="https://avatars.githubusercontent.com/u/25822731?s=48&v=4" alt="MUI" width="100">    | 3.4.2  |
 
 <br/>
 
@@ -124,7 +124,7 @@ $ yarn start
 |  |  |
 |-----------------|-----------------|
 | Git    |  <img src="https://github.com/user-attachments/assets/483abc38-ed4d-487c-b43a-3963b33430e6" alt="git" width="100">    |
-| Figma    |  <img src="https://github.com/user-attachments/assets/32c615cb-7bc0-45cd-91ea-0d1450bfc8a9" alt="git kraken" width="100">    |
+| Figma    |  <img src="https://cdn.sanity.io/images/599r6htc/regionalized/5094051dac77593d0f0978bdcbabaf79e5bb855c-1080x1080.png?w=540&h=540&q=75&fit=max&auto=format" alt="figma" width="100">    |
 | Notion    |  <img src="https://github.com/user-attachments/assets/34141eb9-deca-416a-a83f-ff9543cc2f9a" alt="Notion" width="100">    |
 
 <br/>
