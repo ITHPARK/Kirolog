@@ -69,6 +69,13 @@ $ yarn start
 | <img src="https://github.com/user-attachments/assets/f8330c86-1efa-43c3-8193-e1b25177ee43" alt="마이페이지" width="175"> | <img src="https://github.com/user-attachments/assets/a0e42233-b30c-4c7b-baa6-543b440b9d19" alt="마이페이지" width="175"> | <img src="https://github.com/user-attachments/assets/db6388bf-5d73-42b2-b6f0-69b3fb643639" alt="마이페이지" width="175">| <img src="https://github.com/user-attachments/assets/88aeeffc-e649-42a3-83a1-cf8d4786a1c1" alt="마이페이지" width="175"> | <img src="https://github.com/user-attachments/assets/0c604264-efea-489c-87f7-136f7bfb0839" alt="마이페이지" width="175"> | 
 |:------:|:------:|:------:|:------:|:------:|
 
+
+## 3-1. Demo (시연 영상)
+
+
+
+
+
 <br/>
 <br/>
 
