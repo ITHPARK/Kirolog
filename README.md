@@ -70,12 +70,6 @@ $ yarn start
 |:------:|:------:|:------:|:------:|:------:|
 
 
-## 3-1. Demo (시연 영상)
-
-
-
-
-
 <br/>
 <br/>
 
@@ -107,7 +101,6 @@ $ yarn start
 | eslint   |  <img src="https://github.com/user-attachments/assets/75a46fa7-ebc0-4a9d-b648-c589f87c4b55" alt="MUI" width="100">    | 8.57.0  |
 | prettier   |  <img src="https://github.com/user-attachments/assets/75a46fa7-ebc0-4a9d-b648-c589f87c4b55" alt="MUI" width="100">    | 3.4.2  |
 
-
 <br/>
 
 ## 5.3 Backend
@@ -115,6 +108,15 @@ $ yarn start
 |-----------------|-----------------|-----------------|
 | python    |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    | 10.12.5    |
 | Django    |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    | 10.12.5    |
+
+<br/>
+
+## 5.3 DevOps
+|  |  |  |
+|-----------------|-----------------|-----------------|
+| GPT    |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    | 10.12.5    |
+| Kubernetes   |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    | 10.12.5    |
+| AWS   |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    | 10.12.5    |
 
 <br/>
 
@@ -128,23 +130,38 @@ $ yarn start
 <br/>
 
 # 6. Project Structure (프로젝트 구조)
-```plaintext
+```Kirolog
 project/
+├── .vscode/                 # vscode 설정 파일
+├── .yarn/                   # Yarn이 사용하는 내부 데이터와 캐시, 플러그인 모음
+├── build/                   # 빌드 파일
 ├── public/
-│   ├── index.html           # HTML 템플릿 파일
-│   └── favicon.ico          # 아이콘 파일
+│   ├── images           
+│   │   ├── images.png       # 이미지 파일
+│   └──   
 ├── src/
 │   ├── assets/              # 이미지, 폰트 등 정적 파일
 │   ├── components/          # 재사용 가능한 UI 컴포넌트
+│   ├── constants/           # 정적 데이터, 설정 파일 모음
+│   ├── context/             # 전역으로 사용될(알럿, 모달 등) 기능의 provider 모음
 │   ├── hooks/               # 커스텀 훅 모음
 │   ├── pages/               # 각 페이지별 컴포넌트
-│   ├── App.js               # 메인 애플리케이션 컴포넌트
-│   ├── index.js             # 엔트리 포인트 파일
-│   ├── index.css            # 전역 css 파일
-│   ├── firebaseConfig.js    # firebase 인스턴스 초기화 파일
-│   package-lock.json    # 정확한 종속성 버전이 기록된 파일로, 일관된 빌드를 보장
-│   package.json         # 프로젝트 종속성 및 스크립트 정의
-├── .gitignore               # Git 무시 파일 목록
+│   ├── remote/              # 각 페이지의 api 호출 코드 모음
+│   ├── store/               # zustand store 모음
+│   ├── styles/              # 전역으로 사용될 css 및 css 변수 모음
+│   ├── utils/               # 유틸함수 모음
+│   ├── App.tsx              # 메인 애플리케이션 컴포넌트
+│   └── index.tsx            # 엔트리 포인트 파일
+├── package.json             # 프로젝트 종속성 및 스크립트 정의
+├── .eslintrc                # ESLint 설정파일
+├── .pnp.cjs                 # 패키지 경로 관리파일
+├── .pnp.loader.mjs          # ESM 로더
+├── .prettierrc              # prettier 설정 파일
+├── .craco.config.sj         # craco 설정 파일
+├── .yarnrc.yml              # 패키지 설치 경로, 플러그인, 캐시 설정, PnP 사용 여부 등 Yarn의 동작 설정 파일
+├── tsconfig.json            # 타입스크립트 설정파일
+├── tsconfig.paths.json      # path alias 설정 파일
+├── yarn.lock                # yarn 패키지 기록 파일
 └── README.md                # 프로젝트 개요 및 사용법
 ```
 
