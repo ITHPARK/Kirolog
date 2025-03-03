@@ -106,17 +106,17 @@ $ yarn start
 ## 5.3 Backend
 |  |  |  |
 |-----------------|-----------------|-----------------|
-| python    |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    |    |
-| Django    |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    |    |
+| Python    |  <img src="https://avatars.githubusercontent.com/u/1525981?s=200&v=4" alt="Python" width="100">    |    |
+| Django    |  <img src="https://avatars.githubusercontent.com/u/27804?s=200&v=4" alt="Django" width="100">    |    |
 
 <br/>
 
 ## 5.3 DevOps
 |  |  |  |
 |-----------------|-----------------|-----------------|
-| GPT    |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    |    |
-| Kubernetes   |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    |   |
-| AWS   |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    |    |
+| Chat GPT    |  <img src="https://raw.githubusercontent.com/github/explore/68cdfba5e0c834ba7378c8439407ea40219fe49e/topics/chatgpt/chatgpt.png" alt="chatgpt" width="100">    |    |
+| Kubernetes   |  <img src="https://github.com/kubernetes/kubernetes/raw/master/logo/logo.png" alt="kubernetes" width="100">    |   |
+| AWS   |  <img src="https://avatars.githubusercontent.com/u/2232217?s=200&v=4" alt="aws" width="100">    |    |
 
 <br/>
 
@@ -212,10 +212,6 @@ project/
 <br/>
 
 ## 명명 규칙
-* 상수 : 영문 대문자 + 스네이크 케이스
-```
-const NAME_ROLE;
-```
 * 변수 & 함수 : 카멜케이스
 ```
 // state
