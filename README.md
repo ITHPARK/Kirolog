@@ -298,6 +298,3 @@ SMS, 이메일 중복확인 API 개발
 ```
 <br/>
 
-# 10. 컨벤션 수행 결과
-<img width="100%" alt="코드 컨벤션" src="https://github.com/user-attachments/assets/0dc218c0-369f-45d2-8c6d-cdedc81169b4">
-<img width="100%" alt="깃플로우" src="https://github.com/user-attachments/assets/2a4d1332-acc2-4292-9815-d122f5aea77c">
