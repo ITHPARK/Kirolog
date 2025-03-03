@@ -90,33 +90,33 @@ $ yarn start
 # 5. Technology Stack (주요 기술 스택) 
 
 ## 5.2 Frotend
-|  |  |  |
-|-----------------|-----------------|-----------------|
-| Yarn Berry    |  <img src="https://avatars.githubusercontent.com/u/50545563?s=96&v=4" alt="React" width="100"> | 4.5.3   |
-| React    |  <img src="https://github.com/user-attachments/assets/e3b49dbb-981b-4804-acf9-012c854a2fd2" alt="React" width="100"> | 18.0.0    |
-| EmotionCss    |  <img src="https://avatars.githubusercontent.com/u/31557565?s=200&v=4" alt="StyledComponents" width="100">| 11.13.5   |
-| TanStack Query v5    |  <img src="https://avatars.githubusercontent.com/u/72518640?s=48&v=4" alt="MUI" width="100">    | 5.62.3  |
-| Typescript   |  <img src="https://raw.githubusercontent.com/microsoft/TypeScript-Website/v2/packages/typescriptlang-org/static/branding/ts-logo-512.svg" alt="MUI" width="100">    | 4.4.2  
-| axios   |  <img src="https://avatars.githubusercontent.com/u/32372333?s=48&v=4" alt="MUI" width="100">    | 1.7.9  |
-| eslint   |  <img src="https://avatars.githubusercontent.com/u/6019716?s=48&v=4" alt="MUI" width="100">    | 8.57.0  |
-| prettier   |  <img src="https://avatars.githubusercontent.com/u/25822731?s=48&v=4" alt="MUI" width="100">    | 3.4.2  |
+|  |  |  |  |
+|-----------------|-----------------|-----------------|-----------------|
+| Yarn Berry    |  <img src="https://avatars.githubusercontent.com/u/50545563?s=96&v=4" alt="React" width="100"> | 4.5.3   | NPM보다 가벼운 패키지 관리와 유령의존성을 해결하기 위한 PnP 방식을 사용
+| React    |  <img src="https://github.com/user-attachments/assets/e3b49dbb-981b-4804-acf9-012c854a2fd2" alt="React" width="100"> | 18.0.0    | 패키지 호환을 고려한 최신 버전 
+| EmotionCss    |  <img src="https://avatars.githubusercontent.com/u/31557565?s=200&v=4" alt="StyledComponents" width="100">| 11.13.5   | tsx 파일안에서 직접 css를 제어하며, styledComponents를 활용한 컴포넌트 스타일링
+| TanStack Query v5    |  <img src="https://avatars.githubusercontent.com/u/72518640?s=48&v=4" alt="MUI" width="100">    | 5.62.3  | API 처리중 상태와 캐싱 관리를 위해 사용
+| Typescript   |  <img src="https://raw.githubusercontent.com/microsoft/TypeScript-Website/v2/packages/typescriptlang-org/static/branding/ts-logo-512.svg" alt="MUI" width="100">    | 4.4.2  | 타입을 사용하여 오류 방지 및 안정성 확보를 위해 사용
+| axios   |  <img src="https://avatars.githubusercontent.com/u/32372333?s=48&v=4" alt="MUI" width="100">    | 1.7.9  | 비동기 처리의 설정 및 JSON 변환을 편리하게 하기 위해 사용
+| eslint   |  <img src="https://avatars.githubusercontent.com/u/6019716?s=48&v=4" alt="MUI" width="100">    | 8.57.0  | 문법 및 코드 스타일 규칙 설정
+| prettier   |  <img src="https://avatars.githubusercontent.com/u/25822731?s=48&v=4" alt="MUI" width="100">    | 3.4.2  | 코드 포멧터
 
 <br/>
 
 ## 5.3 Backend
 |  |  |  |
 |-----------------|-----------------|-----------------|
-| python    |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    | 10.12.5    |
-| Django    |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    | 10.12.5    |
+| python    |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    |    |
+| Django    |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    |    |
 
 <br/>
 
 ## 5.3 DevOps
 |  |  |  |
 |-----------------|-----------------|-----------------|
-| GPT    |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    | 10.12.5    |
-| Kubernetes   |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    | 10.12.5    |
-| AWS   |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    | 10.12.5    |
+| GPT    |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    |    |
+| Kubernetes   |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    |   |
+| AWS   |  <img src="https://github.com/user-attachments/assets/1694e458-9bb0-4a0b-8fe6-8efc6e675fa1" alt="Firebase" width="100">    |    |
 
 <br/>
 
